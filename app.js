@@ -7,15 +7,15 @@ var app = expr();
 
 const content = path.join(__dirname, "./template/views");
 const components = path.join(__dirname, "./template/partials");
-const csspath = path.join(__dirname, "./template/partials");
-const imgpath = path.join(__dirname, "./template/partials/images");
+
+
 
 app.set("view engine", "hbs");
 app.set("views", content);
 
 hbs.registerPartials(components);
-app.use(expr.static(csspath));
-app.use(expr.static(imgpath));
+
+
 
 app.get("", (req, res) => {
   res.render("index", {
