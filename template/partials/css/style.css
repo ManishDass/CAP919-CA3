@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
+h3 {
+  color: #e37217;
+  margin-top: 15vh;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-left: 13vw;
+  margin-bottom: -2vh;
+}
+
+h4 {
+  color: #e37217;
+  margin-top: 15vh;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-left: 13.8vw;
+  margin-bottom: -7vh;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.mb {
+  margin-bottom: 16.4vh;
+}
